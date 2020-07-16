@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>per.cby.system</groupId>
+    <artifactId>system</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>system</name>
+    <description>系统管理架构</description>
+    <parent>
+        <groupId>per.cby.frame</groupId>
+        <artifactId>frame-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <modules>
+        <module>system-base</module>
+        <module>system-service</module>
+        <module>system-gateway</module>
+        <module>shiro-authen</module>
+    </modules>
+</project>
